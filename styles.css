@@ -87,3 +87,65 @@ h1 {
   font-size: 0.75rem;
   color: var(--ra-neutral-700);
 }
+
+/* Privacy page */
+.card.card--wide {
+  max-width: 560px;
+  text-align: left;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  color: var(--ra-accent-orange);
+  text-decoration: none;
+  margin-bottom: 1.25rem;
+}
+
+.back-link:hover {
+  color: var(--ra-accent-orange-light);
+  text-decoration: underline;
+}
+
+.privacy-section {
+  margin-bottom: 1.25rem;
+}
+
+.privacy-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ra-primary-700);
+  margin: 0 0 0.5rem;
+}
+
+.privacy-section p {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--ra-neutral-700);
+  line-height: 1.55;
+}
+
+.privacy-contact {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ra-neutral-200);
+  font-size: 0.875rem;
+  color: var(--ra-neutral-700);
+}
+
+.privacy-contact a {
+  color: var(--ra-accent-orange);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.privacy-contact a:hover {
+  text-decoration: underline;
+}
